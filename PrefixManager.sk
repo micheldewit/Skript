@@ -1,0 +1,510 @@
+#====================================#
+# Author > Midnighters               #
+# Skript Name > Prefix Manager GUI   #
+# Version > 1.1                      #
+# Release Date > May 6, 2016         #
+#====================================#
+
+options:
+
+	#=======================#
+	# Reload Command Access #
+	#=======================#
+	
+    Prefix Reload Perm: prefix.reload
+	
+	#===============================#
+	# Command Not Available Message #
+	#===============================#
+	
+    Access Denied: &4You don't have access to that command!
+	
+	#=========================#
+	# Normal Rank Permissions #
+	#=========================#
+	
+    Prefix Set One: prefixmanager.tier1
+    Prefix Set Two: prefixmanager.tier2
+    Prefix Set Three: prefixmanager.tier3
+    Prefix Set Four: prefixmanager.tier4
+    Prefix Set Five: prefixmanager.tier5
+    Prefix Set Six: prefixmanager.tier6
+    Prefix Set Seven: prefixmanager.tier7
+    Prefix Set Eight: prefixmanager.tier8
+	
+	#=========================#
+	# Donor Ranks Permissions #
+	#=========================#
+	
+    Donor Prefix One: prefixmanager.donor1
+    Donor Prefix Two: prefixmanager.donor2
+    Donor Prefix Three: prefixmanager.donor3
+    Donor Prefix Four: prefixmanager.donor4
+    Donor Prefix Five: prefixmanager.donor5
+    Donor Prefix Six: prefixmanager.donor6
+    Donor Prefix Seven: prefixmanager.donor7
+    Donor Prefix Eight: prefixmanager.donor8
+    Donor Prefix Nine: prefixmanager.donor9
+    Donor Prefix Ten: prefixmanager.donor10
+    Donor Prefix Eleven: prefixmanager.donor11
+    Donor Prefix Twelve: prefixmanager.donor12
+    Donor Prefix Thirteen: prefixmanager.donor13
+    Donor Prefix Fourteen: prefixmanager.donor14
+    Donor Prefix Fifteen: prefixmanager.donor15
+    Donor Prefix Sixteen: prefixmanager.donor16
+    Donor Prefix Seventeen: prefixmanager.donor17
+    Donor Prefix Eighteen: prefixmanager.donor18
+    Donor Prefix Nineteen: prefixmanager.donor19
+	
+	#========================#
+	# Staff Rank Permissions #
+	#========================#
+	
+    Staff Prefix One: prefixmanager.builder
+    Staff Prefix Two: prefixmanager.mod
+    Staff Prefix Three: prefixmanager.headmod
+    Staff Prefix Four: prefixmanager.admin
+    Staff Prefix Five: prefixmanager.headadmins
+    Staff Prefix Six: prefixmanager.owner
+	
+	#===================#
+	# Nickname Settings #
+	#===================#
+	
+    Set Nick Others: prefixmanager.nick.others
+    Set Nick Self: prefixmanager.nick.self
+	
+    Nickname Length: 16
+	
+    Nickname Set Message: &7 ► &eNew Nickname Set To
+    Nickname Removed Message: &7 ► &eNickname Removed
+    Nickname Length Message: &7 ► &cNickname Length Must Be Less Than
+	
+	#===================#
+	# Nickname Settings #
+	#===================#
+	
+	Me Message Permission: prefixmanager.me
+	Me Message Warning: &7 ► &cProper Usage "/me text"
+	
+	#========================#
+	# GUI Item Name Settings #
+	#========================#
+	
+    Prefix Type Normal: &7 ► &ePrefix Type: &fNon-Donor
+    Prefix Type Donor: &7 ► &ePrefix Type: &cDonor
+    Prefix Type Staff: &7 ► &ePrefix Type: &cStaff
+    Set Prefix To Message: &fSet Prefix To
+    Prefix Unavailable Lore: &7 ► &cBuy This Rank To Use It
+    Prefix Unavailable Chat Message: &cYou must buy that prefix in order to use it!
+	
+	#==============#
+	# Normal Ranks #
+	#              #
+	
+    Rank0: §6[§eRecruit�6]
+    Rank1: §6[§eCadet 3rd Class§6]
+    Rank2: §6[§eCadet 2nd Class§6]
+    Rank3: §6[§eCadet 1st Class§6]
+    Rank4: §6[§eEnsign 3rd Class§6]
+    Rank5: §6[§eEnsign 2nd Class§6]
+    Rank6: §6[§eEnsign 1st Class§6]
+    Rank7: §6[§eLuitenant 3rd Class§6]
+    Rank8: §6[§eLuitenant 2nd Class§6]
+    Rank9: §6[§eLuitenant 1st Class§6]
+    Rank10: §6[§eLt. Commander 3rd class§6]
+    Rank11: §6[§eLt. Commander 2nd class§6]
+    Rank12: §6[§eLt. Commander 1st class§6]
+    Rank13: §6[§eCommander§6]
+    Rank14: §6[§eCaptain§6]
+    Rank15: §6[§eCommodore 2nd Class§6]
+    Rank16: §6[§eCommodore 1st class§6]
+	
+	#=============#
+	# Donor Ranks #
+	#             #
+	
+    DRank0: §6[§7Viscount§6]
+    DRank1: §6[§7Viscountress§6]
+    DRank2: §6[§3Earl§6]
+    DRank3: §6[§3Countress§6]
+    DRank4: §6[§eMarquess§6]
+    DRank5: §6[§eMarchioness§6]
+    DRank6: §6[§eHero§6]
+    DRank7: §6[§eHeroine§6]
+    DRank8: §6[§eDuke§6]
+    DRank9: §6[§eDuchess§6]
+    DRank10: §6[§ePrince§6]
+    DRank11: §6[§ePrincess§6]
+    DRank12: §6[§eKing§6]
+    DRank13: §6[§eQueen§6]
+    DRank14: §6[§eEmporer§6]
+    DRank15: §6[§eEmpress§6]
+    DRank16: §6[§eEmpress§6]
+    DRank17: §6[§eEmpress§6]
+    DRank18: §6[§eEmpress§6]
+	
+	#=============#
+	# Staff Ranks #
+	#             #
+	
+    RankBuilder: §6[§aBuilder§6]
+    RankMod: §6[§4Mod§6]
+    RankHMod: §6[§1Head Mod§6]
+    RankAdmin: §6[§cAdmin§6]
+    RankHAdmin: §6[§4Head Admin§6]
+    RankOwner: §6[§4Owner§6]
+
+variables:
+
+
+#====================================#
+#           Normal Ranks             #
+#====================================#  
+
+	Rank0 = "§6[§eRecruit�6]"
+	Rank1 = "§6[§eCadet 3rd Class§6]"
+	Rank2 = "§6[§eCadet 2nd Class§6]"
+	Rank3 = "§6[§eCadet 1st Class§6]"
+	Rank4 = "§6[§eEnsign 3rd Class§6]"
+	Rank5 = "§6[§eEnsign 2nd Class§6]"
+	Rank6 = "§6[§eEnsign 1st Class§6]"
+	Rank7 = "§6[§eLuitenant 3rd Class§6]"
+	Rank8 = "§6[§eLuitenant 2nd Class§6]"
+	Rank9 = "§6[§eLuitenant 1st Class§6]"
+	Rank10 = "§6[§eLt. Commander 3rd class§6]"
+	Rank11 = "§6[§eLt. Commander 2nd class§6]"
+	Rank12 = "§6[§eLt. Commander 1st class§6]"
+	Rank13 = "§6[§eCommander§6]"
+	Rank14 = "§6[§eCaptain§6]"
+	Rank15 = "§6[§eCommodore 2nd Class§6]"
+	Rank16 = "§6[§eCommodore 1st class§6]"
+	
+#====================================#
+#            Donor Ranks             #
+#====================================#  
+
+	DRank0 = "§6[§7Viscount§6]"
+	DRank1 = "§6[§7Viscountress§6]"
+	DRank2 = "§6[§3Earl§6]"
+	DRank3 = "§6[§3Countress§6]"
+	DRank4 = "§6[§eMarquess§6]"
+	DRank5 = "§6[§eMarchioness§6]"
+	DRank6 = "§6[§eHero§6]"
+	DRank7 = "§6[§eHeroine§6]"
+	DRank8 = "§6[§eDuke§6]"
+	DRank9 = "§6[§eDuchess§6]"
+	DRank10 = "§6[§ePrince§6]"
+	DRank11 = "§6[§ePrincess§6]"
+	DRank12 = "§6[§eKing§6]"
+	DRank13 = "§6[§eQueen§6]"
+	DRank14 = "§6[§eEmporer§6]"
+	DRank15 = "§6[§eEmpress§6]"
+	DRank16 = "§6[§eEmpress§6]"
+	DRank17 = "§6[§eEmpress§6]"
+	DRank18 = "§6[§eEmpress§6]"
+	
+#====================================#
+#            Staff Ranks             #
+#====================================#  
+	
+	RankBuilder = "§6[§aBuilder§6]"
+	RankMod = "§6[§4Mod§6]"
+	RankHMod = "§6[§1Head Mod§6]"
+	RankAdmin = "§6[§cAdmin§6]"
+	RankHAdmin = "§6[§4Head Admin§6]"
+	RankOwner = "§6[§4Owner§6]"
+	
+#====================================#
+#         Default Join Rank          #
+#====================================# 
+	
+	Prefix.%player% = "§6[§eRecruit§6]"
+	
+#==================================== Vairables and Permissions End Here ====================================#
+	
+	
+#===================================#
+#      On Join/Chat Functions       #
+#===================================# 
+
+on first join:
+	set {Prefix.%player%} to {Rank0}
+	
+on join:
+	set join message to ""
+	set player's display name to {nick::%player%}
+	broadcast "&7 ► %{Prefix.%player%}% &6%player% &aHas Joined &7◄"
+	
+on leave:
+	broadcast "&7 ► %{Prefix.%player%}% &6%player% &cHas Left &7◄"
+	
+on chat:
+	if {nick-value.%player%} is true:
+		cancel event
+		broadcast "%{Prefix.%player%}% &6%player's display name% &7>> &b%message%"
+		stop
+	else:
+		cancel event
+		broadcast "%{Prefix.%player%}% &6%player% &7>> &b%message%"
+		stop
+		
+#====================================#
+#        Title Command Setup         #
+#====================================# 
+	
+command /title [<text>]:
+	trigger:
+	
+		#==================#
+		# Default Rank GUI #
+		#                  #
+	
+		if arg 1 is not set:
+			open chest with 3 rows named "&fChoose Your Prefix" to player
+			format slot 0 of player with 1 of glass named " " to close
+			format slot 1 of player with 1 of glass named " " to close
+			format slot 2 of player with 1 of glass named " " to close
+			format slot 3 of player with 1 of glass named " " to close
+			format slot 4 of player with 1 of orange glass named "&fPrefix Management Gui" to close
+			format slot 5 of player with 1 of glass named " " to close
+			format slot 6 of player with 1 of glass named " " to close
+			format slot 7 of player with 1 of glass named " " to close
+			format slot 8 of player with 1 of glass named " " to close
+			format slot 9 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@Rank0}" with lore "&7 ► &ePrefix Title: {@Rank0}||{@Prefix Type Normal}" to close then run [set {Prefix.%player%} to {Rank0}]
+			if player has permission "{@Prefix Set One}":
+				format slot 10 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@Rank1}" with lore "&7 ► &ePrefix Title: {@Rank1}||{@Prefix Type Normal}" to close then run [set {Prefix.%player%} to {Rank1}]
+				format slot 11 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@Rank2}" with lore "&7 ► &ePrefix Title: {@Rank2}||{@Prefix Type Normal}" to close then run [set {Prefix.%player%} to {Rank2}]
+			else:
+				format slot 10 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@Rank1}" with lore "&7 ► &ePrefix Title: {@Rank1}||{@Prefix Type Normal}||{@Prefix Unavailable Lore}" to close then run [send "{@Prefix Unavailable Chat Message}" to player]
+				format slot 11 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@Rank2}" with lore "&7 ► &ePrefix Title: {@Rank2}||{@Prefix Type Normal}||{@Prefix Unavailable Lore}" to close then run [send "{@Prefix Unavailable Chat Message}" to player]
+			if player has permission "{@Prefix Set Two}":
+				format slot 12 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@Rank3}" with lore "&7 ► &ePrefix Title: {@Rank3}||{@Prefix Type Normal}" to close then run [set {Prefix.%player%} to {Rank3}]
+				format slot 13 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@Rank4}" with lore "&7 ► &ePrefix Title: {@Rank4}||{@Prefix Type Normal}" to close then run [set {Prefix.%player%} to {Rank4}]
+			else:
+				format slot 12 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@Rank3}" with lore "&7 ► &ePrefix Title: {@Rank3}||{@Prefix Type Normal}||{@Prefix Unavailable Lore}" to close then run [send "{@Prefix Unavailable Chat Message}" to player]
+				format slot 13 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@Rank4}" with lore "&7 ► &ePrefix Title: {@Rank4}||{@Prefix Type Normal}||{@Prefix Unavailable Lore}" to close then run [send "{@Prefix Unavailable Chat Message}" to player]
+			if player has permission "{@Prefix Set Three}":
+				format slot 14 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@Rank5}" with lore "&7 ► &ePrefix Title: {@Rank5}||{@Prefix Type Normal}" to close then run [set {Prefix.%player%} to {Rank5}]
+				format slot 15 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@Rank6}" with lore "&7 ► &ePrefix Title: {@Rank6}||{@Prefix Type Normal}" to close then run [set {Prefix.%player%} to {Rank6}]
+			else:
+				format slot 14 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@Rank5}" with lore "&7 ► &ePrefix Title: {@Rank5}||{@Prefix Type Normal}||{@Prefix Unavailable Lore}" to close then run [send "{@Prefix Unavailable Chat Message}" to player]
+				format slot 15 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@Rank6}" with lore "&7 ► &ePrefix Title: {@Rank6}||{@Prefix Type Normal}||{@Prefix Unavailable Lore}" to close then run [send "{@Prefix Unavailable Chat Message}" to player]
+			if player has permission "{@Prefix Set Four}":
+				format slot 16 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@Rank7}" with lore "&7 ► &ePrefix Title: {@Rank7}||{@Prefix Type Normal}" to close then run [set {Prefix.%player%} to {Rank7}]
+				format slot 17 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@Rank8}" with lore "&7 ► &ePrefix Title: {@Rank8}||{@Prefix Type Normal}" to close then run [set {Prefix.%player%} to {Rank8}]
+			else:
+				format slot 16 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@Rank7}" with lore "&7 ► &ePrefix Title: {@Rank7}||{@Prefix Type Normal}||{@Prefix Unavailable Lore}" to close then run [send "{@Prefix Unavailable Chat Message}" to player]
+				format slot 17 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@Rank8}" with lore "&7 ► &ePrefix Title: {@Rank8}||{@Prefix Type Normal}||{@Prefix Unavailable Lore}" to close then run [send "{@Prefix Unavailable Chat Message}" to player]
+			if player has permission "{@Prefix Set Five}":
+				format slot 18 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@Rank9}" with lore "&7 ► &ePrefix Title: {@Rank9}||{@Prefix Type Normal}" to close then run [set {Prefix.%player%} to {Rank9}]
+				format slot 19 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@Rank10}" with lore "&7 ► &ePrefix Title: {@Rank10}||{@Prefix Type Normal}" to close then run [set {Prefix.%player%} to {Rank10}]
+			else:
+				format slot 18 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@Rank9}" with lore "&7 ► &ePrefix Title: {@Rank9}||{@Prefix Type Normal}||{@Prefix Unavailable Lore}" to close then run [send "{@Prefix Unavailable Chat Message}" to player]
+				format slot 19 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@Rank10}" with lore "&7 ► &ePrefix Title: {@Rank10}||{@Prefix Type Normal}||{@Prefix Unavailable Lore}" to close then run [send "{@Prefix Unavailable Chat Message}" to player]
+			if player has permission "{@Prefix Set Six}":
+				format slot 20 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@Rank11}" with lore "&7 ► &ePrefix Title: {@Rank11}||{@Prefix Type Normal}" to close then run [set {Prefix.%player%} to {Rank11}]
+				format slot 21 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@Rank12}" with lore "&7 ► &ePrefix Title: {@Rank12}||{@Prefix Type Normal}" to close then run [set {Prefix.%player%} to {Rank12}]
+			else:
+				format slot 20 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@Rank11}" with lore "&7 ► &ePrefix Title: {@Rank11}||{@Prefix Type Normal}||{@Prefix Unavailable Lore}" to close then run [send "{@Prefix Unavailable Chat Message}" to player]
+				format slot 21 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@Rank12}" with lore "&7 ► &ePrefix Title: {@Rank12}||{@Prefix Type Normal}||{@Prefix Unavailable Lore}" to close then run [send "{@Prefix Unavailable Chat Message}" to player]
+			if player has permission "{@Prefix Set Seven}":
+				format slot 22 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@Rank13}" with lore "&7 ► &ePrefix Title: {@Rank13}||{@Prefix Type Normal}" to close then run [set {Prefix.%player%} to {Rank13}]
+				format slot 23 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@Rank14}" with lore "&7 ► &ePrefix Title: {@Rank14}||{@Prefix Type Normal}" to close then run [set {Prefix.%player%} to {Rank14}]
+			else:
+				format slot 22 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@Rank13}" with lore "&7 ► &ePrefix Title: {@Rank13}||{@Prefix Type Normal}||{@Prefix Unavailable Lore}" to close then run [send "{@Prefix Unavailable Chat Message}" to player]
+				format slot 23 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@Rank14}" with lore "&7 ► &ePrefix Title: {@Rank14}||{@Prefix Type Normal}||{@Prefix Unavailable Lore}" to close then run [send "{@Prefix Unavailable Chat Message}" to player]
+			if player has permission "{@Prefix Set Eight}":
+				format slot 24 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@Rank15}" with lore "&7 ► &ePrefix Title: {@Rank15}||{@Prefix Type Normal}" to close then run [set {Prefix.%player%} to {Rank15}]
+				format slot 25 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@Rank16}" with lore "&7 ► &ePrefix Title: {@Rank16}||{@Prefix Type Normal}" to close then run [set {Prefix.%player%} to {Rank16}]
+			else:
+				format slot 24 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@Rank15}" with lore "&7 ► &ePrefix Title: {@Rank15}||{@Prefix Type Normal}||{@Prefix Unavailable Lore}" to close then run [send "{@Prefix Unavailable Chat Message}" to player]
+				format slot 25 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@Rank16}" with lore "&7 ► &ePrefix Title: {@Rank16}||{@Prefix Type Normal}||{@Prefix Unavailable Lore}" to close then run [send "{@Prefix Unavailable Chat Message}" to player]
+			format slot 26 of player with 1 of barrier named "&c&lClick To Cancel" to close
+			
+		#================#
+		# Donor Rank GUI #
+		#                #
+			
+		if arg 1 is "donor":
+			open chest with 3 rows named "&fChoose Your Prefix" to player
+			format slot 0 of player with 1 of glass named " " to close
+			format slot 1 of player with 1 of glass named " " to close
+			format slot 2 of player with 1 of glass named " " to close
+			format slot 3 of player with 1 of glass named " " to close
+			format slot 4 of player with 1 of orange glass named "&fDonor Prefix Management Gui" to close
+			format slot 5 of player with 1 of glass named " " to close
+			format slot 6 of player with 1 of glass named " " to close
+			format slot 7 of player with 1 of glass named " " to close
+			format slot 8 of player with 1 of glass named " " to close
+			if player has permission "{@Donor Prefix One}":
+				format slot 9 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@DRank0}" with lore "&7 ► &ePrefix Title: {@DRank0}||{@Prefix Type Donor}" to close then run [set {Prefix.%player%} to {DRank0}]
+			else:
+				format slot 9 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@DRank0}" with lore "&7 ► &ePrefix Title: {@DRank0}||{@Prefix Type Donor}||{@Prefix Unavailable Lore}" to close then run [send "{@Prefix Unavailable Chat Message}" to player]
+			if player has permission "{@Donor Prefix Two}":
+				format slot 10 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@DRank1}" with lore "&7 ► &ePrefix Title: {@DRank1}||{@Prefix Type Donor}" to close then run [set {Prefix.%player%} to {DRank1}]
+			else:
+				format slot 10 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@DRank1}" with lore "&7 ► &ePrefix Title: {@DRank1}||{@Prefix Type Donor}||{@Prefix Unavailable Lore}" to close then run [send "{@Prefix Unavailable Chat Message}" to player]
+			if player has permission "{@Donor Prefix Three}":
+				format slot 11 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@DRank2}" with lore "&7 ► &ePrefix Title: {@DRank2}||{@Prefix Type Donor}" to close then run [set {Prefix.%player%} to {DRank2}]
+			else:
+				format slot 11 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@DRank2}" with lore "&7 ► &ePrefix Title: {@DRank2}||{@Prefix Type Donor}||{@Prefix Unavailable Lore}" to close then run [send "{@Prefix Unavailable Chat Message}" to player]
+			if player has permission "{@Donor Prefix Four}":
+				format slot 12 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@DRank3}" with lore "&7 ► &ePrefix Title: {@DRank3}||{@Prefix Type Donor}" to close then run [set {Prefix.%player%} to {DRank3}]
+			else:
+				format slot 12 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@DRank3}" with lore "&7 ► &ePrefix Title: {@DRank3}||{@Prefix Type Donor}||{@Prefix Unavailable Lore}" to close then run [send "{@Prefix Unavailable Chat Message}" to player]
+			if player has permission "{@Donor Prefix Five}":
+				format slot 13 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@DRank4}" with lore "&7 ► &ePrefix Title: {@DRank4}||{@Prefix Type Donor}" to close then run [set {Prefix.%player%} to {DRank4}]
+			else:
+				format slot 13 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@DRank4}" with lore "&7 ► &ePrefix Title: {@DRank4}||{@Prefix Type Donor}||{@Prefix Unavailable Lore}" to close then run [send "{@Prefix Unavailable Chat Message}" to player]
+			if player has permission "{@Donor Prefix Five}":
+				format slot 14 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@DRank5}" with lore "&7 ► &ePrefix Title: {@DRank5}||{@Prefix Type Donor}" to close then run [set {Prefix.%player%} to {DRank5}]
+			else:
+				format slot 14 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@DRank5}" with lore "&7 ► &ePrefix Title: {@DRank5}||{@Prefix Type Donor}||{@Prefix Unavailable Lore}" to close then run [send "{@Prefix Unavailable Chat Message}" to player]
+			if player has permission "{@Donor Prefix Six}":
+				format slot 14 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@DRank6}" with lore "&7 ► &ePrefix Title: {@DRank6}||{@Prefix Type Donor}" to close then run [set {Prefix.%player%} to {DRank6}]
+			else:
+				format slot 14 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@DRank6}" with lore "&7 ► &ePrefix Title: {@DRank6}||{@Prefix Type Donor}||{@Prefix Unavailable Lore}" to close then run [send "{@Prefix Unavailable Chat Message}" to player]
+			if player has permission "{@Donor Prefix Seven}":
+				format slot 15 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@DRank7}" with lore "&7 ► &ePrefix Title: {@DRank7}||{@Prefix Type Donor}" to close then run [set {Prefix.%player%} to {DRank7}]
+			else:
+				format slot 15 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@DRank7}" with lore "&7 ► &ePrefix Title: {@DRank7}||{@Prefix Type Donor}||{@Prefix Unavailable Lore}" to close then run [send "{@Prefix Unavailable Chat Message}" to player]
+			if player has permission "{@Donor Prefix Eight}":
+				format slot 16 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@DRank8}" with lore "&7 ► &ePrefix Title: {@DRank8}||{@Prefix Type Donor}" to close then run [set {Prefix.%player%} to {DRank8}]
+			else:
+				format slot 16 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@DRank8}" with lore "&7 ► &ePrefix Title: {@DRank8}||{@Prefix Type Donor}||{@Prefix Unavailable Lore}" to close then run [send "{@Prefix Unavailable Chat Message}" to player]
+			if player has permission "{@Donor Prefix Nine}":
+				format slot 17 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@DRank9}" with lore "&7 ► &ePrefix Title: {@DRank9}||{@Prefix Type Donor}" to close then run [set {Prefix.%player%} to {DRank9}]
+			else:
+				format slot 17 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@DRank9}" with lore "&7 ► &ePrefix Title: {@DRank9}||{@Prefix Type Donor}||{@Prefix Unavailable Lore}" to close then run [send "{@Prefix Unavailable Chat Message}" to player]
+			if player has permission "{@Donor Prefix Ten}":
+				format slot 18 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@DRank10}" with lore "&7 ► &ePrefix Title: {@DRank10}||{@Prefix Type Donor}" to close then run [set {Prefix.%player%} to {DRank10}]
+			else:
+				format slot 18 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@DRank10}" with lore "&7 ► &ePrefix Title: {@DRank10}||{@Prefix Type Donor}||{@Prefix Unavailable Lore}" to close then run [send "{@Prefix Unavailable Chat Message}" to player]
+			if player has permission "{@Donor Prefix Eleven}":
+				format slot 19 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@DRank11}" with lore "&7 ► &ePrefix Title: {@DRank11}||{@Prefix Type Donor}" to close then run [set {Prefix.%player%} to {DRank11}]
+			else:
+				format slot 19 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@DRank11}" with lore "&7 ► &ePrefix Title: {@DRank11}||{@Prefix Type Donor}||{@Prefix Unavailable Lore}" to close then run [send "{@Prefix Unavailable Chat Message}" to player]
+			if player has permission "{@Donor Prefix Twelve}":
+				format slot 20 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@DRank12}" with lore "&7 ► &ePrefix Title: {@DRank12}||{@Prefix Type Donor}" to close then run [set {Prefix.%player%} to {DRank12}]
+			else:
+				format slot 20 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@DRank12}" with lore "&7 ► &ePrefix Title: {@DRank12}||{@Prefix Type Donor}||{@Prefix Unavailable Lore}" to close then run [send "{@Prefix Unavailable Chat Message}" to player]
+			if player has permission "{@Donor Prefix Thirteen}":
+				format slot 21 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@DRank13}" with lore "&7 ► &ePrefix Title: {@DRank13}||{@Prefix Type Donor}" to close then run [set {Prefix.%player%} to {DRank13}]
+			else:
+				format slot 21 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@DRank13}" with lore "&7 ► &ePrefix Title: {@DRank13}||{@Prefix Type Donor}||{@Prefix Unavailable Lore}" to close then run [send "{@Prefix Unavailable Chat Message}" to player]
+			if player has permission "{@Donor Prefix Fourteen}":
+				format slot 22 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@DRank14}" with lore "&7 ► &ePrefix Title: {@DRank14}||{@Prefix Type Donor}" to close then run [set {Prefix.%player%} to {DRank14}]
+			else:
+				format slot 22 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@DRank14}" with lore "&7 ► &ePrefix Title: {@DRank14}||{@Prefix Type Donor}||{@Prefix Unavailable Lore}" to close then run [send "{@Prefix Unavailable Chat Message}" to player]
+			if player has permission "{@Donor Prefix Fifteen}":
+				format slot 23 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@DRank15}" with lore "&7 ► &ePrefix Title: {@DRank15}||{@Prefix Type Donor}" to close then run [set {Prefix.%player%} to {DRank15}]
+			else:
+				format slot 23 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@DRank15}" with lore "&7 ► &ePrefix Title: {@DRank15}||{@Prefix Type Donor}||{@Prefix Unavailable Lore}" to close then run [send "{@Prefix Unavailable Chat Message}" to player]
+			format slot 24 of player with 1 of black glass named " " to close
+			format slot 25 of player with 1 of black glass named " " to close
+			format slot 26 of player with 1 of barrier named "&c&lClick To Cancel" to close
+			
+		#================#
+		# Staff Rank GUI #
+		#                #
+			
+		if arg 1 is "staff":
+			open chest with 3 rows named "&fChoose Your Prefix" to player
+			format slot 0 of player with 1 of glass named " " to close
+			format slot 1 of player with 1 of glass named " " to close
+			format slot 2 of player with 1 of glass named " " to close
+			format slot 3 of player with 1 of glass named " " to close
+			format slot 4 of player with 1 of orange glass named "&fStaff Prefix Management Gui" to close
+			format slot 5 of player with 1 of glass named " " to close
+			format slot 6 of player with 1 of glass named " " to close
+			format slot 7 of player with 1 of glass named " " to close
+			format slot 8 of player with 1 of glass named " " to close
+			if player has permission "{@Staff Prefix One}":
+				format slot 9 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@RankBuilder}" with lore "&7 ► &ePrefix Title: {@RankBuilder}||{@Prefix Type Staff}" to close then run [set {Prefix.%player%} to {RankBuilder}]
+			else:
+				format slot 9 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@RankBuilder}" with lore "&7 ► &ePrefix Title: {@RankBuilder}||{@Prefix Type Staff}||&7 ► &cYou Do Not Have Access" to close then run [send "&cYou do not have access to that prefix!" to player]
+			if player has permission "{@Staff Prefix Two}":
+				format slot 10 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@RankMod}" with lore "&7 ► &ePrefix Title: {@RankMod}||{@Prefix Type Staff}" to close then run [set {Prefix.%player%} to {RankMod}]
+			else:
+				format slot 10 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@RankMod}" with lore "&7 ► &ePrefix Title: {@RankMod}||{@Prefix Type Staff}||&7 ► &cYou Do Not Have Access" to close then run [send "&cYou do not have access to that prefix!" to player]
+			if player has permission "{@Staff Prefix Three}":
+				format slot 11 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@RankHMod}" with lore "&7 ► &ePrefix Title: {@RankHMod}||{@Prefix Type Staff}" to close then run [set {Prefix.%player%} to {RankHMod}]
+			else:
+				format slot 11 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@RankHMod}" with lore "&7 ► &ePrefix Title: {@RankHMod}||{@Prefix Type Staff}||&7 ► &cYou Do Not Have Access" to close then run [send "&cYou do not have access to that prefix!" to player]
+			if player has permission "{@Staff Prefix Four}":
+				format slot 12 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@RankAdmin}" with lore "&7 ► &ePrefix Title: {@RankAdmin}||{@Prefix Type Staff}" to close then run [set {Prefix.%player%} to {RankAdmin}]
+			else:
+				format slot 12 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@RankAdmin}" with lore "&7 ► &ePrefix Title: {@RankAdmin}||{@Prefix Type Staff}||&7 ► &cYou Do Not Have Access" to close then run [send "&cYou do not have access to that prefix!" to player]
+			if player has permission "{@Staff Prefix Five}":
+				format slot 13 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@RankHAdmin}" with lore "&7 ► &ePrefix Title: {@RankHAdmin}||{@Prefix Type Staff}" to close then run [set {Prefix.%player%} to {RankHAdmin}]
+			else:
+				format slot 13 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@RankHAdmin}" with lore "&7 ► &ePrefix Title: {@RankHAdmin}||{@Prefix Type Staff}||&7 ► &cYou Do Not Have Access" to close then run [send "&cYou do not have access to that prefix!" to player]
+			if player has permission "{@Staff Prefix Six}":
+				format slot 14 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@RankOwner}" with lore "&7 ► &ePrefix Title: {@RankOwner}||{@Prefix Type Staff}" to close then run [set {Prefix.%player%} to {RankOwner}]
+			else:
+				format slot 14 of player with 1 of book_and_quill named "{@Set Prefix To Message} {@RankOwner}" with lore "&7 ► &ePrefix Title: {@RankOwner}||{@Prefix Type Staff}||&7 ► &cYou Do Not Have Access" to close then run [send "&cYou do not have access to that prefix!" to player]
+				
+#======================================#
+#         Reload Command Setup         #
+#======================================# 
+				
+command /pf reload:
+	trigger:
+		if player has permission "{@Prefix Reload Perm}":
+			send "&aReloading PrefixManager. . ." to player
+			execute console command "/sk reload PrefixManager"
+			wait 2 seconds
+			send "&aReload Finished!" to player
+		else:
+			send "{@Access Denied}" to player
+			
+			
+#========================================#
+#         Nickname Command Setup         #
+#========================================#  
+
+command /nick [<player>] [<text>] :
+    trigger: 
+        if player has permission "{@Set Nick Others}":
+            if player arg is set:
+                if length of arg 2 is less than or equal to {@Nickname Length}:
+                    if arg 2 is not "off": 
+                        set player arg's display name to colored arg 2
+                        set {nick::%player%} to colored arg 2
+                        set {nick-value.%player%} to true
+                        send "{@Nickname Set Message}: %colored arg 2%" to player
+                        stop
+                    if arg 2 is "off": 
+                        set {nick.%player%} to player's name
+                        set {nick-value.%player%} to false
+                        send "{@Nickname Removed Message}" to player
+                        stop
+                else:
+                    send "[Nick] >> Nickname Must Be 16 Characters or Less" to player
+        if player has permission "{@Set Nick Self}":
+            if player arg is not set:
+                if length of arg 2 is less than or equal to 16:
+                    if arg 2 is not "off": 
+                        set player's display name to colored arg 2
+                        set {nick::%player%} to colored arg 2
+                        set {nick-value.%player%} to true
+                        send "{@Nickname Set Message}: %colored arg 2%" to player
+                        stop
+                    if arg 2 is "off": 
+                        set {nick.%player%} to player's name
+                        set {nick-value.%player%} to false
+                        send "{@Nickname Removed Message}" to player
+                        stop
+                else:
+                    send "{@Nickname Length Message} {@Nickname Length}" to player
+        else:
+            send "{@Access Denied}" to player
+			
+command /me [<text>]:
+	trigger:
+		if player has permission "{@Me Message Permission}":
+			if arg 1 is not set:
+				send "{@Me Message Warning}"
+			if arg 1 is set:
+				send "%player's display name% %arg 1%"
